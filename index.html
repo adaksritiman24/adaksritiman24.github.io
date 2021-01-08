@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Learn Python</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script type="text/javascript" src = "bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .navbar-style{
+                background-color: rgb(0,0,0);
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+            .items-style{
+                font-weight: bold;
+            }
+            .brand-style{
+                font-family: Audiowide;
+            }
+            .th-style {
+                width: 30px;
+                height: 30px;
+                margin: auto;
+                margin-top: 10px;
+                margin-left: 6px;
+                margin-right: 6px;
+                display: inline-block;
+                float: left;
+            }
+            .main-nav-style{
+                display: flex;
+            }
+            .btn-style{
+                margin-left: 4px;
+                margin-right: 4px;
+            }
+            .banner-img{
+                background: url("img/bg_img.jpg")no-repeat center center;
+                background-size: cover;
+                height: 660px;
+                margin: 0px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .jumbo-style{
+                display: block; 
+                margin-top: 100px;
+                width: auto;
+                height: auto;
+                color: white;
+                background-color: rgba(0,0,0,0.8);
+                padding: 10px 10px;
+                
+            }
+            .jumbo-style h1{
+                text-align: center;
+                font-family: Arial;
+                font-weight: bold;
+                color: yellow;
+                align-items: center;
+            }
+            .jumbo-style p{
+                justify-content: center;
+                text-align: center;
+                font-size: 20px;
+            }
+            .py-img{
+                height: 100px;
+                width: 100px;
+                display: inline;
+            }
+            .a:hover{
+                color: yellow;
+            }
+            @media(max-width: 700px){
+                .jumbo-style p{
+                    font-size: 15px;
+                }
+            }
+            .col-style{
+                margin-bottom: 0px;
+            }
+            .each-row{
+                border: 1px solid gray;
+                border-radius: 10px;
+                margin-top: 40px;
+                margin-bottom: 60px;
+                padding: 5px;
+                box-shadow: 2px 2px 8px gray;
+            }
+            .img-style{
+                border: none;
+            }
+            h2{
+                font-weight: bold;
+                color: black;
+                text-align: left;
+            }
+            .para{
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                margin: 5px;
+                padding: 15px;
+                text-align: justify;
+
+            }
+            .footer-element{
+                position: fixed;
+                width: 100%;
+                color: #fff;
+                background-color: #000;
+                font-size: 11px;
+                text-align: center;
+                padding:15px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+            }
+            .footer-element p{
+                padding-top: 0.3%;
+                padding-bottom: 0.1%;
+                margin-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main-container">
+            <nav class="navbar navbar-fixed-top navbar-style navbar-inverse">
+                <div class="container">
+
+                    <div class="navbar-header main-nav-style">
+                        
+                        <button type="button" class="navbar-toggle btn-style" data-toggle="collapse" data-target="#nav-items">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div>
+                            <img src="img/logo.png" class="th-style" alt="NF">
+                        </div>
+                        <a href="#" class=" navbar-brand brand-style">
+                            Code With Sritiman
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav-items">
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li>
+                                <a href="#" class="items-style"><span class="glyphicon glyphicon-home"></span> Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="items-style"><span class="glyphicon glyphicon-user"></span> Sign UP</a>
+                            </li>
+                            <li>
+                                <a href="#" class="items-style"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                            </li>
+                            <li>
+                                <a href="#" class="items-style"><span class="glyphicon glyphicon-phone"></span> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class=" container-fluid banner-img">
+                <div class="jumbotron jumbo-style">
+                    <div class="imdiv">
+                        <center>
+                            <img src="img/python.png" alt="Cant be displayed" class="py-img">
+                        <center>
+                    </div>
+                    
+                    <h1>Learn Python</h1>
+                    <p><b>Python</b> is an interpreted, <u>high-level</u> and <u>general-purpose</u> programming language. 
+                        Python's design philosophy emphasizes code readability with its notable use of significant 
+                        whitespace. Its language constructs and object-oriented approach aim to 
+                        help programmers write clear, logical code for small and large-scale projects.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row each-row">
+                    <div class="col-md-4 col-style">
+                        <div class=" thumbnail img-style">
+                            <img src="img/dt.png" alt="Not Found">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-style">
+                        <div class="para">
+                            <h2>Data Types in Python</h2>
+                            <p>In programming, data type is an important concept.
+                                Variables can store data of different types, and different types can do different things.
+                                A variable is created the moment you first assign a value to it.
+                                Variables do not need to be declared with any particular type, and can even change type after they have been set.
+                                <br>Python has the following data types built-in by default, in these categories:
+                            </p>
+                            <ul>
+                                <li>Text Type:	str</li>
+                                <li>Sequence Types:	list, tuple, range</li>
+                                <li>Numeric Types:	int, float, complex</li>
+                                <li>Mapping Type:	dict</li>
+                                <li>Set Types:	set, frozenset</li>
+                                <li>Boolean Type:	bool</li>
+                                <li>Binary Types:	bytes, bytearray, memoryview</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row each-row">
+                    <div class="col-md-8 col-style">
+                        <div class="para">
+                            <h2>Object Oriented Programming</h2>
+                            <p>
+                                Object-oriented programming (OOP) is a method of structuring a program by bundling related properties and behaviors into individual objects.
+                                Conceptually, objects are like the components of a system. Think of a program as a factory assembly line of sorts. At each step of the assembly 
+                                line a system component processes some material, ultimately transforming raw material into a finished product.
+                                An object contains data, like the raw or preprocessed materials at each step on an assembly line, and behavior, 
+                                like the action each assembly line component performs.
+                                Object-oriented programming is a programming paradigm that provides a means of structuring
+                                programs so that properties and behaviors are bundled into individual objects.
+                                For instance, an object could represent a person with properties like a name, age, and address and behaviors such as 
+                                walking, talking, breathing, and running. Or it could represent an email with properties like a recipient list, subject, 
+                                and body and behaviors like adding attachments and sending.Put another way, object-oriented programming is an approach for modeling 
+                                concrete, real-world things, like cars, as well as relations between things, like companies and employees, students and teachers, and so on.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-style">
+                        <div class=" thumbnail img-style">
+                            <img src="img/oop.jpg" alt="Not Found">
+                        </div>
+                    </div>
+                </div>
+                <div class="row each-row">
+                    <div class="col-md-4 col-style">
+                        <div class=" thumbnail img-style">
+                            <img src="img/coi.png" alt="Not Found">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-style">
+                        <div class="para">
+                            <h2>Python | Compiled or Interpreted ?</h2>
+                            <p>
+                                n various books of python programming, it is mentioned that python language is interpreted. 
+                                But that is half correct the python program is first compiled and then interpreted. The
+                                compilation part is hidden from the programmer thus, many programmers believe that it is an 
+                                interpreted language. The compilation part is done first when we execute our code and this will 
+                                generate byte code and internally this byte code gets converted by the python virtual machine(p.v.m)
+                                according to the underlying platform(machine+operating system).
+                                Now the question is – if there is any proof that python first compiles the program internally and then
+                                run the code via interpreter?
+                                The answer is yes! and note this compiled part is get deleted by the python(as soon as you execute your code) 
+                                just it does not want programmers to get into complexity.
+                                See This sample code:<br><br>print("i am learning python") 
+                                <br>print("i am enjoying it") <br>
+                                now if you run this code using command prompt just save this above code in notepad and save with the extension “.py”
+                                syntax: python (name of the program.py) and press enter.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer-element">
+                <p>
+                    Copyright © Lifestyle Store. All Rights
+                    Reserved | Contact Us: +91 90000 00000
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -46,7 +46,6 @@ and open the template in the editor.
             .banner-img{
                 background: url("img/bg_img.jpg")no-repeat center center;
                 background-size: cover;
-                height: 660px;
                 margin: 0px;
                 display: flex;
                 flex-wrap: wrap;
@@ -60,7 +59,8 @@ and open the template in the editor.
                 color: white;
                 background-color: rgba(0,0,0,0.8);
                 padding: 10px 10px;
-                
+                margin-bottom: 80px;
+                padding: 37px 0px;
             }
             .jumbo-style h1{
                 text-align: center;
@@ -93,8 +93,7 @@ and open the template in the editor.
             .each-row{
                 border: 1px solid gray;
                 border-radius: 10px;
-                margin-top: 40px;
-                margin-bottom: 60px;
+                margin: 40px 5px 60px 5px;
                 padding: 5px;
                 box-shadow: 2px 2px 8px gray;
             }
@@ -130,6 +129,29 @@ and open the template in the editor.
                 padding-top: 0.3%;
                 padding-bottom: 0.1%;
                 margin-bottom: 0px;
+            }
+            .search-area{
+                display: inline;
+                margin: 10px;
+            }
+            .form-addon{
+                margin: auto;
+                height: 50px;
+                border-radius: 24px;
+                font-size: 17px;
+                padding: 4px;
+                padding-left: 20px;
+            }
+            .icon-addon{
+                position: absolute;
+                right: 0px;
+
+            }
+            .icon-style{
+               min-width: 40px;
+               font-size: 32px;
+                padding-right: 30px;
+                padding-top: 8px;               
             }
         </style>
     </head>
@@ -183,6 +205,12 @@ and open the template in the editor.
                         Python's design philosophy emphasizes code readability with its notable use of significant 
                         whitespace. Its language constructs and object-oriented approach aim to 
                         help programmers write clear, logical code for small and large-scale projects.</p>
+                    <div class="container-fluid">
+                        <div class="col-md-6 col-md-offset-3">
+                            <a href="#" class="icon-addon"><span class="glyphicon glyphicon-search icon-style"></span></a>
+                            <input type="text" name="search" placeholder="Search Courses" class=" form-control form-inline form-addon">
+                        </div>
+                    </div>    
                 </div>
             </div>
             <div class="container">
@@ -210,6 +238,7 @@ and open the template in the editor.
                                 <li>Boolean Type:	bool</li>
                                 <li>Binary Types:	bytes, bytearray, memoryview</li>
                             </ul>
+                            <a href="#" class="btn btn-success active">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -230,6 +259,7 @@ and open the template in the editor.
                                 and body and behaviors like adding attachments and sending.Put another way, object-oriented programming is an approach for modeling 
                                 concrete, real-world things, like cars, as well as relations between things, like companies and employees, students and teachers, and so on.
                             </p>
+                            <a href="#" class="btn btn-success active">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-style">
@@ -264,6 +294,7 @@ and open the template in the editor.
                                 syntax: python (name of the program.py) and press enter.
 
                             </p>
+                            <a href="#" class="btn btn-success active">Learn More</a>
                         </div>
                     </div>
                 </div>
